@@ -640,6 +640,10 @@ footer ul li a:hover {
     padding: 1.5rem;
   }
 
+  .testimonials_container {
+    padding: 6rem 0rem 0rem;
+  }
+
   /* ==================== FOOTER ===================== */
 
   .footer_container {
