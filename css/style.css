@@ -601,12 +601,12 @@ footer ul li a:hover {
   /* ==================== CATEGORIES ===================== */
 
   .categories_right {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.7rem;
   }
 
   .category {
-    padding: 1.3rem;
+    padding: 2rem;
     border-radius: 1rem;
   }
 
@@ -618,7 +618,20 @@ footer ul li a:hover {
   /* ==================== Popular Courses ===================== */
 
   .courses_container {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course {
+    width: 80%;
+  }
+
+  /* ==================== FAQS ===================== */
+
+  .faq_icon {
+    align-self: auto;
   }
 
   /* ==================== Testimonial ===================== */
@@ -627,7 +640,7 @@ footer ul li a:hover {
     padding: 1.5rem;
   }
 
-  /* ==================== Courses ===================== */
+  /* ==================== FOOTER ===================== */
 
   .footer_container {
     /* grid-template-columns: 1fr; */
