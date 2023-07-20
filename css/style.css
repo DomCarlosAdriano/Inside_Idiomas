@@ -312,7 +312,6 @@ header {
 
 .faq h4 {
   font-size: 1rem;
-  line-height: 2.2;
 }
 
 .faq_icon {
@@ -558,6 +557,10 @@ footer ul li a:hover {
     padding: 1.5rem;
   }
 
+  .faq h4 {
+    line-height: 1.5rem;
+  }
+
   /* ==================== FOOTER ===================== */
 
   .footer_container {
@@ -607,12 +610,15 @@ footer ul li a:hover {
 
   .category {
     padding: 2rem;
-    border-radius: 1rem;
   }
 
   .category_icon {
-    margin-top: 4px;
+    padding: 1rem;
     display: inline-block;
+  }
+
+  .category h5 {
+    margin: 2rem 0 0.5rem;
   }
 
   /* ==================== Popular Courses ===================== */
@@ -636,6 +642,10 @@ footer ul li a:hover {
 
   .faq_icon {
     align-self: auto;
+  }
+
+  .faq h4 {
+    line-height: 1.5rem;
   }
 
   /* ==================== Testimonial ===================== */
