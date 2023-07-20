@@ -18,7 +18,7 @@ Bem-vindo(a) ao repositório do projeto da Escola de Inglês, Eu fui bolsista ne
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src=".github/preview.jpg" width="100%">
+  <img alt="preview website" src="https://github.com/DomCarlosAdriano/Inside_Idiomas/blob/master/.gitbub/preview.jpg?raw=true" width="100%">
 </p>
 
 ## 🚀 Tecnologias
