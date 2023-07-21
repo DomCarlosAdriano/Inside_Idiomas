@@ -119,6 +119,7 @@ nav {
   height: 5rem;
   position: fixed;
   z-index: 11;
+  top: 0;
 }
 /* change navbar style on scroll using javascript */
 .window-scroll {

@@ -6,6 +6,7 @@
     <title>Inside Idiomas</title>
 
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
 
     <!-- icons CDN-->
     <link
@@ -23,15 +24,6 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
-    <!-- SWIPER JS-->
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </head>
   <body>
     <nav>
@@ -53,6 +45,50 @@
     </nav>
 
     <!-- =========== END OF Navbar ===========-->
+
+    <section class="about_achievements">
+      <div class="container about_achievements_container">
+        <div class="about-achievements-left">
+          <img src="./images/team.svg" alt="" />
+        </div>
+        <div class="about-achievements-right">
+          <h1>Nossas Conquistas</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae omnis reiciendis consequuntur quis recusandae numquam
+            sapiente repellendus iusto nihil unde nobis dolorem similique,
+            reprehenderit ratione itaque ducimus facilis accusantium ex.
+          </p>
+          <div class="achievements_cards">
+            <article class="achievement_card">
+              <span class="achievement_icon">
+                <i class="fa-solid fa-users"></i>
+              </span>
+              <h3>450+</h3>
+              <p>Students</p>
+            </article>
+
+            <article class="achievement_card">
+              <span class="achievement_icon">
+                <i class="fa-solid fa-users"></i>
+              </span>
+              <h3>450+</h3>
+              <p>Students</p>
+            </article>
+
+            <article class="achievement_card">
+              <span class="achievement_icon">
+                <i class="fa-solid fa-users"></i>
+              </span>
+              <h3>450+</h3>
+              <p>Students</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========== END OF ACHIEVEMENTS ===========-->
 
     <footer class="footer">
       <div class="container footer_container">
@@ -115,23 +151,5 @@
     <!-- =========== END OF fOOTER ===========-->
 
     <script src="./main.js"></script>
-
-    <!-- ==================== slide =============-->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        //when window width is >= 600px
-        breakpoints: {
-          600: {
-            slidesPerView: 2,
-          },
-        },
-      });
-    </script>
   </body>
 </html>
